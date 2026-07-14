@@ -1,4 +1,4 @@
-import speech_recognition as sr
+import speech_recognition as s
 import pyttsx3
 
 # Initialize the TTS engine
