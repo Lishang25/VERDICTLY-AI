@@ -1,7 +1,7 @@
 import speech_recognition as sr
 import pyttsx3
 engine = pyttsx3.init()
-
+# Initialize the TTS engine
 def set_voice():
     voices = engine.getProperty('voices')
     # Set the voice to a male voice (0 is usually male on many systems)
