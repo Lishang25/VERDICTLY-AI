@@ -9,7 +9,6 @@ def set_voice():
         if 'male' in voice.name.lower():
             engine.setProperty('voice', voice.id)
             break
-
 def speak(text):
     engine.say(text)
     engine.runAndWait()
